@@ -1,0 +1,9 @@
+git remote remove origin
+git remote add origin https://github.com/harikaguruju/red-runner-harika.git
+
+git add README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHANGELOG.md .github/PULL_REQUEST_TEMPLATE.md
+
+git commit -m "chore: personalize project for Harika Guruju — update docs and add contribution files"
+
+git branch -M main
+git push -u origin main
